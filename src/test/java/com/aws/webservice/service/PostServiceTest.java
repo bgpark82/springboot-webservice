@@ -1,22 +1,22 @@
-package com.aws.webservice.service;
-
-import static org.assertj.core.api.Assertions.assertThat;
-
-import org.junit.After;
-import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
-
-import com.aws.webservice.domain.posts.Posts;
-import com.aws.webservice.domain.posts.PostsRepository;
-import com.aws.webservice.dto.posts.PostsSaveRequestDto;
-
-@RunWith(SpringRunner.class)
-@SpringBootTest
-public class PostServiceTest {
-
+//package com.aws.webservice.service;
+//
+//import static org.assertj.core.api.Assertions.assertThat;
+//
+//import org.junit.After;
+//import org.junit.Test;
+//import org.junit.runner.RunWith;
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.boot.test.context.SpringBootTest;
+//import org.springframework.test.context.junit4.SpringRunner;
+//
+//import com.aws.webservice.domain.posts.Posts;
+//import com.aws.webservice.domain.posts.PostsRepository;
+//import com.aws.webservice.dto.posts.PostsSaveRequestDto;
+//
+//@RunWith(SpringRunner.class)
+//@SpringBootTest
+//public class PostServiceTest {
+//
 //    @Autowired
 //    private PostsService postsService;
 //
@@ -27,7 +27,7 @@ public class PostServiceTest {
 //    public void cleanup () {
 //        postsRepository.deleteAll();
 //    }
-
+//
 //    @Test
 //    public void Dto데이터가_posts테이블에_저장된다 () {
 //        //given
@@ -46,4 +46,4 @@ public class PostServiceTest {
 //        assertThat(posts.getContent()).isEqualTo(dto.getContent());
 //        assertThat(posts.getTitle()).isEqualTo(dto.getTitle());
 //    }
-}
+//}
