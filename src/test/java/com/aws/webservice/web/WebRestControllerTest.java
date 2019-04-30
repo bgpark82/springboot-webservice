@@ -14,15 +14,15 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest(webEnvironment = WebEnvironment.RANDOM_PORT)
 public class WebRestControllerTest {
 
-    @Autowired
-    private TestRestTemplate restTemplate;
-
-    @Test
-    public void Profile확인 () {
-        //when
+//    @Autowired
+//    private TestRestTemplate restTemplate;
+//
+//    @Test
+//    public void Profile확인 () {
+//        //when
 //        String profile = this.restTemplate.getForObject("/profile", String.class);
-
-        //then
+//
+//        //then
 //        assertThat(profile).isEqualTo("local");
-    }
+//    }
 }
